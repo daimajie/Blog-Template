@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"> -->
+  <title>DAIMAJIE-首页</title>
+  <link rel="stylesheet" href="static/libs/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="static/libs/layui/css/layui.css">
+  <link rel="stylesheet" href="static/css/app.css">
+  <link rel="stylesheet" href="static/css/album.css">
+</head>
+<body>
+<!-- header -->
+<section class="topbar">
+	<div class="nav">
+		<div class="layui-container">
+			<a class="logo layui-hide-xs layui-hide-sm layui-show-md-block" href="/">DAIMAJIE.COM</a>
+			<div class="">
+				<ul class="layui-nav float-r" lay-filter="">
+				  <li class="layui-nav-item"><a href="">最新活动</a></li>
+				  <li class="layui-nav-item layui-this"><a href="">产品</a></li>
+				  <li class="layui-nav-item"><a href="">大数据</a></li>
+				  <li class="layui-nav-item">
+				    <a href="javascript:;">解决方案</a>
+				    <dl class="layui-nav-child"> <!-- 二级菜单 -->
+				      <dd><a href="">移动模块</a></dd>
+				      <dd><a href="">后台模版</a></dd>
+				      <dd><a href="">电商平台</a></dd>
+				    </dl>
+				  </li>
+				  <li class="layui-nav-item"><a href="">社区</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- /header -->
+<section class="breadcrumb">
+	<div class="layui-container margin-t-10 margin-b-10">
+		<span class="layui-breadcrumb">
+		  <a href="/">首页</a>
+		  <a><cite>我的相册</cite></a>
+		</span>
+	</div>
+</section>
+<section class="content">
+	<div class="layui-container articles" id="wrap">
+		<hr class="layui-bg-gray">
+		<div id="pics">
+			<div class="box">
+				<div class="pic">
+					<img src="static/img/P_00.jpg" alt="">
+				</div>
+			</div>
+			<div class="box">
+				<div class="pic">
+					<img src="static/img/P_01.jpg" alt="">
+				</div>
+			</div>
+			<div class="box">
+				<div class="pic">
+					<img src="static/img/P_02.jpg" alt="">
+				</div>
+			</div>
+			<div class="box">
+				<div class="pic">
+					<img src="static/img/P_03.jpg" alt="">
+				</div>
+			</div>
+			<div class="box">
+				<div class="pic">
+					<img src="static/img/P_04.jpg" alt="">
+				</div>
+			</div>
+			<div class="box">
+				<div class="pic">
+					<img src="static/img/P_05.jpg" alt="">
+				</div>
+			</div>
+			<div class="box">
+				<div class="pic">
+					<img src="static/img/P_06.jpg" alt="">
+				</div>
+			</div>
+			<div class="box">
+				<div class="pic">
+					<img src="static/img/P_07.jpg" alt="">
+				</div>
+			</div>
+			<div class="box">
+				<div class="pic">
+					<img src="static/img/P_08.jpg" alt="">
+				</div>
+			</div>
+			<div class="box">
+				<div class="pic">
+					<img src="static/img/P_09.jpg" alt="">
+				</div>
+			</div>
+			<div class="box">
+				<div class="pic">
+					<img src="static/img/P_010.jpg" alt="">
+				</div>
+			</div>
+			<div class="box">
+				<div class="pic">
+					<img src="static/img/P_011.jpg" alt="">
+				</div>
+			</div>
+			<div class="box">
+				<div class="pic">
+					<img src="static/img/P_012.jpg" alt="">
+				</div>
+			</div>
+			<div class="box">
+				<div class="pic">
+					<img src="static/img/P_013.jpg" alt="">
+				</div>
+			</div>
+			<div class="box">
+				<div class="pic">
+					<img src="static/img/P_014.jpg" alt="">
+				</div>
+			</div>
+			<div class="box">
+				<div class="pic">
+					<img src="static/img/P_015.jpg" alt="">
+				</div>
+			</div>
+			<div class="box">
+				<div class="pic">
+					<img src="static/img/P_016.jpg" alt="">
+				</div>
+			</div>
+			<div class="box">
+				<div class="pic">
+					<img src="static/img/P_017.jpg" alt="">
+				</div>
+			</div>
+			<div class="box">
+				<div class="pic">
+					<img src="static/img/P_018.jpg" alt="">
+				</div>
+			</div>
+			<div class="box">
+				<div class="pic">
+					<img src="static/img/P_019.jpg" alt="">
+				</div>
+			</div>
+		</div>
+		
+	</div>
+	
+</section>
+<script src="static/libs/layui/layui.js"></script>
+<script>
+	layui.config({
+	  base: 'static/js/' 
+	}).extend({ 
+	  crossfade: 'crossfade'
+	}).use('album');
+</script>
+</body>
+</html>
